@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVOICE</title>
+    <style>
+          body{
+          background-color: antiquewhite;
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        table, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 15px;
+        } 
+        td{
+            background-color: aliceblue;
+        }
+
+        th{
+            background-color:cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">ENTERPRISES</h1>
+    <table>
+    <tr>
+        <th colspan="4">Invoice #XYZ1234</th>
+        <th colspan="2">DD/MM/YYYY</th>
+    </tr>
+
+    <tr>
+       <td colspan="3">
+        <span><b>Pay To:</b></span>
+        <pre>
+        The Tech Park
+        123 Willow Street
+        Boulevard,LA - 345678
+    </pre>
+       </td> 
+       <td colspan="3">
+        <span><b>Customer:</b></span>
+        <pre>
+        John 
+        New Appartments
+        345 Street
+        Boulevard,LA - 345678
+    </pre>
+       </td> 
+    </tr>
+
+    <tr>
+        <th colspan="2">Name/Description</th>
+        <th>Qty.</th>
+        <th>MRP</th>
+        <th colspan="2">Amount</th>
+    </tr>
+
+    <tr>
+        <td colspan="2">Refrigerator</td>
+        <td>1</td>
+        <td>25000</td>
+        <td colspan="2">25000</td>
+    </tr>
+    <tr>
+        <td colspan="2">Mobile</td>
+        <td>2</td>
+        <td>13000</td>
+        <td colspan="2">26000</td>
+    </tr>
+    <tr>
+        <th colspan="4">Subtotal:</th>
+        <td colspan="2">51000</td>
+    </tr>
+    <tr>
+        <th colspan="3">Tax</th>
+        <td>10%</td>
+        <td colspan="2">5100</td>
+    </tr>
+    <tr>
+        <th colspan="4">Grand Total:</th>
+        <td colspan="2">56100</td>
+    </tr>
+
+
+    </table>
+</body>
+</html>
