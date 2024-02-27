@@ -13,25 +13,25 @@
 
     <form style="text-align:left; border: 4px dotted grey; padding: 40px; width: 35%;" action="" method="get">
         <label for="">Full Name:</label>
-        <input type="text" name="fname" id="">
+        <input type="text" name="fname" id="" max="20" required>
         <br><br>
         <label for="">D.O.B.:</label>
-        <input type="date" name="dob" id="">
+        <input type="date" name="dob" id="" required>
         <br><br>
         <label for="">Email ID:</label>
-        <input type="email" name="email">
+        <input type="email" name="email" required>
         <br><br>
         <label for="">Create Password:</label>
-        <input type="password" name="psswrd">
+        <input type="password" name="psswrd" required>
         <br><br>
         <label for="">Confirm Password:</label>
-        <input type="password" name="cpsswrd">
+        <input type="password" name="cpsswrd" required>
         <br><br>
         <label for="">Contact No.</label>
-        <input type="number" name="contact" id="">
+        <input type="number" name="contact" id="" min="10" max="10" required>
         <br><br>
         <label for="">Address:</label><br>
-        <textarea name="adres" id="" cols="30" rows="5"></textarea>
+        <textarea name="adres" id="" cols="30" rows="5" required></textarea>
         <br><br>
         <label for="">Gender:</label>
         <input type="radio" id="" name="Gender" value="Male">
